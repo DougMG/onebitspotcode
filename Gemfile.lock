@@ -72,12 +72,12 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.1.5)
+    concurrent-ruby (1.1.6)
     crass (1.0.6)
-    devise (4.5.0)
+    devise (4.7.1)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
-      railties (>= 4.1.0, < 6.0)
+      railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
     erubi (1.9.0)
@@ -114,7 +114,7 @@ GEM
     nestive-rails (1.0.1)
       rails (>= 5.0)
     nio4r (2.5.2)
-    nokogiri (1.10.7)
+    nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
     public_suffix (4.0.3)
@@ -122,7 +122,7 @@ GEM
     pwa (4.0.5)
       mozaic (~> 2.0)
       railties (~> 5.2)
-    rack (2.2.1)
+    rack (2.2.2)
     rack-proxy (0.6.5)
       rack
     rack-test (1.1.0)
@@ -224,7 +224,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   chromedriver-helper
   coffee-rails (~> 4.2)
-  devise (~> 4.5.0)
+  devise (~> 4.7.1)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   puma (~> 3.11)
